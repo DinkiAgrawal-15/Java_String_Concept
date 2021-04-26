@@ -1,0 +1,12 @@
+Java String charAt()
+The java string charAt() method returns a char value at the given index number.
+
+public class CharAtExample{  
+public static void main(String args[]){  
+String name="DinkiAgrawal";  
+char ch=name.charAt(6);//returns the char value at the 4th index  
+System.out.println(ch);  
+}}  
+
+o/p
+A
