@@ -1,0 +1,15 @@
+public class EqualsExample{  
+public static void main(String args[]){  
+String s1="school";  
+String s2="school";  
+String s3="SCHOOL";  
+String s4="python";  
+System.out.println(s1.equalsIgnoreCase(s2));//true because content and case is same  
+System.out.println(s1.equalsIgnoreCase(s3));//false because case is not same  
+System.out.println(s1.equalsIgnoreCase(s4));//false because content is not same  
+}}  
+
+...................
+TRUE
+True
+FALSE
